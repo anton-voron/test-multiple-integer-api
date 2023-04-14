@@ -13,6 +13,6 @@ $ npm run start:dev
 ## Test
 
 ```bash
-# unit tests
+# unit tests. Run command in the new terminal
 $ npm run test
 ```
