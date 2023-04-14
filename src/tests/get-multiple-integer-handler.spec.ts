@@ -8,7 +8,7 @@ describe('GetMultipleIntegerHandler', () => {
       method: 'GET',
       hostname: 'localhost',
       port: 3000,
-      path: '/api/?number=15',
+      path: '/multiple-integer/?number=15',
     }, (res: IncomingMessage) => {
       let data = '';
       res.on('data', (chunk) => {
@@ -29,7 +29,7 @@ describe('GetMultipleIntegerHandler', () => {
       method: 'GET',
       hostname: 'localhost',
       port: 3000,
-      path: '/api/?number=9',
+      path: '/multiple-integer/?number=9',
     }, (res: IncomingMessage) => {
       let data = '';
       res.on('data', (chunk) => {
@@ -50,7 +50,7 @@ describe('GetMultipleIntegerHandler', () => {
       method: 'GET',
       hostname: 'localhost',
       port: 3000,
-      path: '/api/?number=10',
+      path: '/multiple-integer/?number=10',
     }, (res: IncomingMessage) => {
       let data = '';
       res.on('data', (chunk) => {
@@ -71,7 +71,7 @@ describe('GetMultipleIntegerHandler', () => {
       method: 'GET',
       hostname: 'localhost',
       port: 3000,
-      path: '/api/?number=7',
+      path: '/multiple-integer/?number=7',
     }, (res: IncomingMessage) => {
       let data = '';
       res.on('data', (chunk) => {
@@ -92,7 +92,7 @@ describe('GetMultipleIntegerHandler', () => {
       method: 'GET',
       hostname: 'localhost',
       port: 3000,
-      path: '/api/?number=foo',
+      path: '/multiple-integer/?number=foo',
     }, (res: IncomingMessage) => {
       let data = '';
       res.on('data', (chunk) => {

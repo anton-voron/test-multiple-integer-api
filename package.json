@@ -2,7 +2,7 @@
   "name": "-y",
   "version": "1.0.0",
   "description": "test-multiple-integer-api",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
     "test": "jest",
     "start:dev": "npx nodemon"
@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "jest": "^29.5.0",
+    "reflect-metadata": "^0.1.13",
     "supertest": "^6.3.3"
   },
   "jest": {

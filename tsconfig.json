@@ -1,14 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "module": "commonjs",
-    "lib": ["es6"],
-    "allowJs": true,
-    "outDir": "build",
-    "rootDir": "src",
-    "strict": true,
-    "noImplicitAny": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": true
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+
+    "noLib": false,
+    "allowJs": true
   }
 }
